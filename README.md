@@ -15,3 +15,7 @@
 已完成部分上位机，已调试一个用命令行下串口与STC通信的简单DEMO，没有gui不是挺满意，
 趁机把windows api编程学习了一下，开始着手写，只是vs2019用着非常不顺手，经常会报
 奇怪的错误，直接用纯api构建界面。
+
+2021-1-26：
+改用ATmega EEPROM开源下载器：https://oshwhub.com/Oleg533/atmega-eeprom-programmer
+安装python后，需要pip install pySerial
