@@ -11,9 +11,10 @@ lda	#$00	;
 sta	#$7f01	;向IO0的Port A写数据
 jmp	#$8000	;跳转到eeprom起始地址
 
-$$-$	db 00	;中间全部填充00
+times $7ffa-($-$$)	db 00	;中间全部填充00
 
 .org $fffa
-dw	$8000
-dw	$8000
-dw	$8000
+dw	$8000	;NMI中断向量
+dw	$8000	;reset向量
+dw	$8000	;IRQ/BRK向量
+
