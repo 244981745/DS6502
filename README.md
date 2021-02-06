@@ -19,3 +19,8 @@
 2021-1-26：
 改用ATmega EEPROM开源下载器：https://oshwhub.com/Oleg533/atmega-eeprom-programmer
 安装python后，需要pip install pySerial
+
+2021-2-6：
+增加点灯程序
+增加关于地址映射的说明文档
+增加挂载在0x7f00-0x7fff上的65c22的说明文档
