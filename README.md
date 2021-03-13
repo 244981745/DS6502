@@ -44,8 +44,8 @@
     6:R6551A的晶振改1.8432Mhz</br>
     
 </br>
-参考：
-1.https://eater.net/6502
-2.https://github.com/grappendorf/homecomputer-6502
-3.https://www.grappendorf.net/projects/6502-home-computer/#table-of-contents
+参考：</br>
+1.https://eater.net/6502</br>
+2.https://github.com/grappendorf/homecomputer-6502</br>
+3.https://www.grappendorf.net/projects/6502-home-computer/#table-of-contents</br>
 
