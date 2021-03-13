@@ -49,4 +49,5 @@
 1.https://eater.net/6502</br>
 2.https://github.com/grappendorf/homecomputer-6502</br>
 3.https://www.grappendorf.net/projects/6502-home-computer/#table-of-contents</br>
+4.http://wilsonminesco.com/6502primer/</br>
 
