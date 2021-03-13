@@ -42,3 +42,10 @@
     4:R6551A的RS0改与CPU的addr0相连，R6551A的RS1改与CPU的addr1相连</br>
     5:R6551A的DSR接地</br>
     6:R6551A的晶振改1.8432Mhz</br>
+    
+</br>
+参考：
+1.https://eater.net/6502
+2.https://github.com/grappendorf/homecomputer-6502
+3.https://www.grappendorf.net/projects/6502-home-computer/#table-of-contents
+
