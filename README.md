@@ -42,7 +42,11 @@
     4:R6551A的RS0改与CPU的addr0相连，R6551A的RS1改与CPU的addr1相连</br>
     5:R6551A的DSR接地</br>
     6:R6551A的晶振改1.8432Mhz</br>
-    7:EEPROM的OE脚接地
+    7:EEPROM的OE脚接地</br>
+    
+2021-3-16：</br>
+    1:添加6551-helloworld</br>
+    2:修正指令表beq的寻址方式</br>
     
 </br>
 参考：</br>
