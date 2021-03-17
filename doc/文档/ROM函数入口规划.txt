@@ -1,0 +1,21 @@
+ROM函数入口地址规划
+main 				[8010]	主程序
+nmi					[80a0]	不可屏蔽中断
+irq					[80b0]	中断响应
+
+text_hello			[8100-811f]
+
+6551_send_byte		[8120]	发送一个字节，a寄存器传入要发送的字节
+6551_send_hello		[8130]	发送hello
+6551_init			[8140]	6551初始化，8bit无检验1停止位，19200波特率
+
+6522_init			[8200]	gpio初始化
+lcd1602_init		[8210]	初始化 8bit 2lines 5*8 有光标，不闪烁
+lcd1602_write_c		[8240]	写命令	a寄存器传入要写入的命令
+lcd1602_write_d		[8260]	写数据	a寄存器传入要写入的数据
+delay_ns			[8280]	软件延时a寄存器传入要延时的数据
+lcd1602_hello		[82a0]	显示hello
+lcd1602_clear		[82c0]	清屏程序
+lcd1602_checkBusy	[82e0]	检查lcd是否在忙
+delay_us			[82f0]	delay_0.1us
+delay_ms			[8300]	delay_ms
