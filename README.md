@@ -50,6 +50,9 @@
     1:添加6551-helloworld</br>
     2:修正指令表beq的寻址方式</br>
     
+2021-3-21：</br>
+    1.添加lcd1602-helloworld</br>
+    2.添加函数入口</br>
 </br>
 参考：</br>
 1.https://eater.net/6502</br>
