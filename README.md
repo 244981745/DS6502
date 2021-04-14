@@ -1,12 +1,11 @@
 # DS6502
 8bit computer system base on W65C02</br>
 
-能力不够，用的自动布线，有不合理的地方请issues一下，尽管我可能改不动</br>
 
 待升级：</br>
 <s>1.CPU地址线总线和数据总线引出</s></br>
-2.接入SD卡</br>
-3.模拟spi驱动tft</br>
+<s>2.接入SD卡</s></br>
+<s>3.模拟spi驱动tft</s></br>
 
 基础功能完善：</br>
 1.点亮GPIO0和GPIO1   [√]</br>
